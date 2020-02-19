@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="_css/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+   
+</head>
+<body>
+    <div>
+        <form method="get" action="dados.php">
+                <fieldset id="usuario"><legend>Identificação do Usuário</legend>
+                    <p>Nome:<input type="text" name="nome"  size="20" max-length="100" placeholder="Nome completo"/></p>
+                     <fieldset id="sexo"> Sexo:<br/>
+                           <input type="radio" name="sexo" id="masc" value="homem"/><label for="masc">Masculino</label> <br/>
+                          <input type="radio" name="sexo" id="fem" value="mulher"/> <label for="fem">Feminino</label>
+                       </fieldset>
+                      <p>Ano de Nascimento:<input type="number" name="data"/></p>
+                </fieldset><br>
+                <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+.divlogin{
+    background-color: whitesmoke;
+    color: rgb(77, 45, 5);
+    text-align: left;
+    background-size: auto;
+    margin:auto;
+    width: 760px;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    
+
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background: gray;
+    text-align: center;
+}
+

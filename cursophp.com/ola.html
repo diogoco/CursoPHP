@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+    <head>
+    <meta charset = "utf-8"/>
+    <title> Tela de Login</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <script type="text/javascript" language="javascript" src="funcao.js"></script>
+
+    </head>
+    <body onload="document.frmLogin.nome.focus()">
+        
+        <div class= 'divlogin'>
+        <form name= "frmLogin" action="index.html" method="get">
+            <table  cellspacing="4" cellpadding="4" id="tabela">
+                <tr>
+                    <td >
+                           <label title="Campo para informar o nome"> Nome</label title="Campo para informar o nome" >
+                    </td>
+                    <td>
+                        
+                           <input type="text" name="nome" size="30" maxlength="30" />
+          
+                    </td>
+                </tr>
+
+                <tr>
+                    <td >
+                          Telefone
+                    </td>
+                    <td>
+                         <input type="text" name="telefone" size="15" maxlength="14" onkeypress="mascara(this, '#(##)####-####')" placeholder="0(00)0000-0000"/>
+          
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>Data de Nascimento</td>
+                    <td>
+                            <input type="text" name="dataNasc" size="10" maxlength="10" onkeypress="mascara(this,'##/##/####')" >
+                    </td>
+                </tr>
+                
+                <tr>
+                   
+                    <td colspan="2" >
+                         <input type="submit" name="btnEnviar" value="Enviar"/>
+                         <input type="button" name="btnLimpar" value="Limpar" onClick="localiton.href='funcao.js'"/>
+                         <input type="button" name="btnAbrirJanela" value="Abrir Janela modal" onclick="javascript:openModal('basico.html', 800, 800);"> 
+                    </td>
+                 
+                </tr>
+               
+               
+
+            </table>
+
+        </form>
+      
+        </div>
+       
+    
+    </body>
+
+  
+</html>
