@@ -10,7 +10,7 @@ class Login {
 }
 
 Login::verificaLogin();
-Login::user = "admin";
+Login::$user = "admin";
 
 
 interface Crud {

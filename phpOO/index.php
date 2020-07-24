@@ -15,6 +15,8 @@ class Pessoa {
         $this->setNome($nome);
         
     }
+
+   
     public function Logar(){
         if($this->email == "teste@teste.com"  and $this->senha == "123456"){
             echo "Logado com succ";
